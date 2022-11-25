@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mainbody {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mainbody .leftside {
+    text-align: center;
+    background-color: aqua;
+    justify-content: center;
+
+
+}
+
+.mainbody .rightside {
+    text-align: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.mainbody .leftside .buttons {
+    margin-top: 20rem;
+}
